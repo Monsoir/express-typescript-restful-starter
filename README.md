@@ -6,6 +6,7 @@ Express + TypeScript + RESTful API 的项目基础模版
 
 ```sh
 git clone https://github.com/Monsoir/express-typescript-restful-starter.git <project name>
+npm install
 ```
 
 ## 命令

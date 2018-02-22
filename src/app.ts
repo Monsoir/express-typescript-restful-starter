@@ -3,6 +3,9 @@ import * as path from 'path';
 import * as logger from 'morgan';
 import * as bodyParser from 'body-parser';
 
+// routes
+import { combineRouterToApp } from './routes/index';
+
 const app = express();
 
 app.use(logger('dev'));
@@ -10,9 +13,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '../public')));
 
-app.get('/', (req, res, next) => {
-  res.end('ok');
-});
+// handler
+combineRouterToApp(app);
 
 app.use((req, res, next) => {
     var err = new Error('Not Found');
