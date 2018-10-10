@@ -8,16 +8,16 @@
     "compile-run": "npm run compile && npm start"
   },
   "dependencies": {
-    "body-parser": "~1.18.2",
-    "debug": "~2.6.9",
-    "express": "~4.15.5",
-    "morgan": "~1.9.0"
+    "body-parser": "latest",
+    "debug": "latest",
+    "express": "latest",
+    "morgan": "latest"
   },
   "devDependencies": {
-    "@types/body-parser": "^1.16.8",
-    "@types/debug": "0.0.30",
-    "@types/express": "^4.11.1",
-    "@types/morgan": "^1.7.35",
-    "typescript": "^2.7.2"
+    "@types/body-parser": "latest",
+    "@types/debug": "latest",
+    "@types/express": "latest",
+    "@types/morgan": "latest",
+    "typescript": "latest"
   }
 }
