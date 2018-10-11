@@ -1,8 +1,8 @@
 import {
-    Response,
-    Request,
-    Express,
-    Router,
+  Response,
+  Request,
+  Express,
+  Router,
 } from 'express';
 
 import * as HomeC from '../controllers/HomeController';

@@ -1,7 +1,7 @@
 import * as express from 'express';
-import HomeRoute from './home';
+import home from './home';
 
 export const combineRouterToApp = (app: express.Application) => {
-    app.use(HomeRoute);
-    return app;
+  app.use(home);
+  return app;
 };
