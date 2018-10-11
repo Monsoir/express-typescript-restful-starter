@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./built/www.js",
-    "compile": "node ./node_modules/typescript/bin/tsc -p ./src",
-    "compile-run": "npm run compile && npm start"
+    "start": "ts-node src/www.ts",
+    "build": "tsc -p ./src"
   },
   "dependencies": {
     "body-parser": "latest",
@@ -18,6 +17,7 @@
     "@types/debug": "latest",
     "@types/express": "latest",
     "@types/morgan": "latest",
+    "ts-node": "latest",
     "typescript": "latest"
   }
 }
