@@ -7,11 +7,13 @@
     "build": "tsc -p ./src"
   },
   "dependencies": {
+    "app-root-path": "^2.1.0",
     "body-parser": "latest",
     "debug": "latest",
     "express": "latest",
     "morgan": "latest",
-    "tslint-config-airbnb": "^5.11.0"
+    "tslint-config-airbnb": "^5.11.0",
+    "winston": "^3.1.0"
   },
   "devDependencies": {
     "@types/body-parser": "latest",
